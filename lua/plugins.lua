@@ -47,6 +47,10 @@ require("lazy").setup({
 		version = "v2.*",
 	},
     -- Color Scheme 
-     "tanvirtin/monokai.nvim",
+    -- "tanvirtin/monokai.nvim",
+    {
+	    "scottmckendry/cyberdream.nvim",
+	    lazy = false,
+    },
 })
 
