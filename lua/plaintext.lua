@@ -2,7 +2,7 @@
 vim.api.nvim_create_autocmd({ "FileType"}, {
     pattern = 'mail,text,markdown',
     callback = function()
-        vim.opt.textwidth = 0
+        vim.opt.textwidth = 72 
         vim.opt.wrap = true
         vim.opt.linebreak = true
         vim.opt.list = false
